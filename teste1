@@ -1,0 +1,57 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.Arrays;
+
+/**
+ *
+ * @author André
+ */
+
+public class teste {
+
+
+
+    @Test
+    public void test1(){
+        assertTrue(sena >= 1);
+   
+        }
+    public void test2(){
+        assertTrue(sena <= 60);
+        }
+    
+    public void test3(){
+        assertSame(sena[0],sena[1],sena[2],sena[3],sena[4],sena[5]);
+        }
+    public void test4(){
+        assertTrue(sena[0] < sena [1]);
+        }
+    public void test5(){
+        assertTrue(sena[1] < sena [2]);
+        }
+     public void test6(){
+        assertTrue(sena[2] < sena [3]);
+        }
+      public void test7(){
+        assertTrue(sena[3] < sena [4]);
+        }
+      public void test7(){
+        assertTrue(sena[4] < sena [5]);
+        }
+
+    // TODO add test methods here.
+    // The methods must be annotated with annotation @Test. For example:
+    //
+    // @Test
+    // public void hello() {}
+}
